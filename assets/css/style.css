@@ -1,20 +1,39 @@
 /* Removing default styles */
 nav button {
-    background: none;
-    border: none;
-    outline: none;
-    font-size: 1.3em;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.3em;
+  padding: 10px;
 }
 
 nav button:hover {
-    cursor: pointer;
+  cursor: pointer;
+  color: #ce1a19;
 }
 
 /* Nav styles */
 header {
-    background-color:
+  background-color: #e8eaed;
 }
-
-nav div {
-    display: inline-block;
+.yt-logo {
+}
+nav div,
+.yt-logo {
+  display: inline-block;
+}
+.search {
+  margin: 0 200px;
+}
+.search input {
+  width: 562px;
+  height: 24px;
+  border-radius: 3px;
+  border: none;
+}
+.search button {
+  height: 26px;
+  width: 50px;
+  background: grey;
+  padding: 5px;
 }
