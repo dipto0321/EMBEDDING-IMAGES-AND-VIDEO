@@ -60,3 +60,7 @@ nav button i {
   position: relative;
   top: 5px;
 }
+/*Main Styles*/
+main {
+  margin-top: 20px;
+}
