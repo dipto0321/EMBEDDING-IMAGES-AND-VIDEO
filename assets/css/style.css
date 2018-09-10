@@ -1,4 +1,4 @@
-/* Removing default styles */
+/* Basic styles */
 nav button {
   background: none;
   border: none;
@@ -10,6 +10,10 @@ nav button:hover {
   color: #ce1a19;
 }
 
+.wrapper {
+  margin: 0 auto;
+  width: 1300px;
+}
 /* Nav styles */
 header {
   background-color: #e8eaed;
