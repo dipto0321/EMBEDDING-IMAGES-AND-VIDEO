@@ -1,62 +1,62 @@
 /* Removing default styles */
 nav button {
-    background: none;
-    border: none;
-    outline: none;
+  background: none;
+  border: none;
+  outline: none;
 }
 
 nav button:hover {
-    cursor: pointer;
-    color: #ce1a19;
+  cursor: pointer;
+  color: #ce1a19;
 }
 
 /* Nav styles */
 header {
-    background-color: #e8eaed;
+  background-color: #e8eaed;
 }
 
 nav div,
 .yt-logo {
-    display: inline-block;
+  display: inline-block;
 }
 
 .yt-logo {
-    margin-bottom: 10px;
-    position: relative;
-    top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  top: 10px;
 }
 
 nav button i {
-    font-size: 1.2em;
-    padding: 10px;
+  font-size: 1.5em;
+  padding: 10px;
 }
 
 .search {
-    margin: 0 100px;
-    position: relative;
-    bottom: 15px;
+  margin: 0 100px;
+  position: relative;
+  bottom: 15px;
 }
 
 .search input {
-    width: 562px;
-    height: 24px;
-    border-radius: 3px;
-    border: none;
+  width: 562px;
+  height: 24px;
+  border-radius: 3px;
+  border: none;
 }
 
 .search button {
-    height: 26px;
-    width: 50px;
-    background: grey;
-    padding: 5px;
+  height: 26px;
+  width: 50px;
+  background: grey;
+  padding: 5px;
 }
 
 .controls {
-    position: relative;
-    bottom: 10px;
+  position: relative;
+  bottom: 10px;
 }
 
 .user img {
-    position: relative;
-    top: 5px;
+  position: relative;
+  top: 5px;
 }
