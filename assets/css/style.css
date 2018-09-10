@@ -1,3 +1,8 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* Removing default styles */
 nav button {
   background: none;
@@ -60,7 +65,23 @@ nav button i {
   position: relative;
   top: 5px;
 }
+
 /*Main Styles*/
 main {
   margin-top: 20px;
+}
+
+.title {
+  display: inline-block;
+}
+
+.video-title h1 {
+  font-size: 18px;
+}
+
+.social-buttons {
+  display: inline-block;
+  margin-left: 100px;
+  position: relative;
+  top: 15px;
 }
