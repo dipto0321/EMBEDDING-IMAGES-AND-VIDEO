@@ -1,0 +1,20 @@
+/* Removing default styles */
+nav button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 1.3em;
+}
+
+nav button:hover {
+    cursor: pointer;
+}
+
+/* Nav styles */
+header {
+    background-color:
+}
+
+nav div {
+    display: inline-block;
+}
