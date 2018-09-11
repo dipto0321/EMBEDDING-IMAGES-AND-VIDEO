@@ -14,6 +14,7 @@ nav button:hover {
   margin: 0 auto;
   width: 1300px;
 }
+
 /* Nav styles */
 header {
   background-color: #e8eaed;
@@ -53,6 +54,8 @@ nav button i {
   width: 50px;
   background: grey;
   padding: 5px;
+  position: relative;
+  top: 5px;
 }
 
 .controls {
