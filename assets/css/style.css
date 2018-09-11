@@ -84,8 +84,8 @@ nav button i {
 }
 
 /*Main Styles*/
-main {
-  margin-top: 20px;
+main.wrapper {
+  margin-top: 10px;
 }
 
 .width-seventy {
@@ -162,6 +162,10 @@ main {
 .up-next img {
   position: relative;
   top: 5px;
+}
+.line {
+  opacity: 0.2;
+  margin-top: -10px;
 }
 
 .suggested-videos ul {
