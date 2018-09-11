@@ -3,6 +3,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
 /* Removing default styles */
 nav button {
   background: none;
@@ -85,6 +93,7 @@ main {
   position: relative;
   top: 15px;
 }
+
 .video-info {
   margin-top: 15px;
 }
@@ -95,16 +104,19 @@ main {
   float: left;
   margin-right: 20px;
 }
+
 .video-info-title {
   position: relative;
   top: 6px;
 }
+
 .video-info-title span {
   font-size: 0.7em;
   position: relative;
   top: -20px;
   color: grey;
 }
+
 .video-info-desc {
   width: 800px;
   margin-left: 66px;
@@ -112,8 +124,27 @@ main {
   font-weight: 400;
   font-size: 0.8em;
 }
+
 .video-info-desc a {
   text-decoration: none;
   color: grey;
   font-size: 0.85em;
+}
+
+
+/* Sidebar styles */
+
+.up-next p {
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.up-next span {
+  font-size: 0.85em;
+  color: grey;
+}
+
+.up-next img {
+  position: relative;
+  top: 5px;
 }
