@@ -1,3 +1,4 @@
+
 /* General Styles */
 body {
   font-family: "Roboto", sans-serif;
@@ -22,6 +23,9 @@ ul {
 }
 
 button {
+
+/* Basic styles */
+nav button {
   background: none;
   border: none;
   outline: none;
@@ -37,6 +41,14 @@ nav button:hover {
   cursor: pointer;
   color: #ce1a19;
 }
+
+
+.wrapper {
+  margin: 0 auto;
+  width: 1300px;
+}
+
+/* Nav styles */
 
 header {
   background-color: #e8eaed;
@@ -90,6 +102,7 @@ nav button i {
 .user img {
   position: relative;
   top: 5px;
+
 }
 
 /*Main Styles*/
