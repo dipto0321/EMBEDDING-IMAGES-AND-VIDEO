@@ -1,3 +1,29 @@
+
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+button {
+
 /* Basic styles */
 nav button {
   background: none;
@@ -5,10 +31,17 @@ nav button {
   outline: none;
 }
 
+/* Nav styles */
+nav button {
+  position: relative;
+  bottom: 12px;
+}
+
 nav button:hover {
   cursor: pointer;
   color: #ce1a19;
 }
+
 
 .wrapper {
   margin: 0 auto;
@@ -16,6 +49,7 @@ nav button:hover {
 }
 
 /* Nav styles */
+
 header {
   background-color: #e8eaed;
 }
@@ -45,17 +79,19 @@ nav button i {
 .search input {
   width: 562px;
   height: 24px;
+  padding: 3px 0 3px 10px;
   border-radius: 3px;
   border: none;
 }
 
 .search button {
-  height: 26px;
+  height: 30px;
   width: 50px;
   background: grey;
   padding: 5px;
   position: relative;
-  top: 5px;
+  top: 4px;
+  border-radius: 2px;
 }
 
 .controls {
@@ -66,4 +102,104 @@ nav button i {
 .user img {
   position: relative;
   top: 5px;
+
+}
+
+/*Main Styles*/
+main.wrapper {
+  margin-top: 10px;
+}
+
+.width-seventy {
+  width: 70%;
+}
+
+.title {
+  display: inline-block;
+}
+
+.video-title h1 {
+  font-size: 18px;
+}
+
+.social-buttons {
+  display: inline-block;
+  margin-left: 100px;
+  position: relative;
+  top: 15px;
+}
+
+.video-info {
+  margin-top: 15px;
+}
+
+.video-info-img {
+  border-radius: 100%;
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+
+.video-info-title {
+  position: relative;
+  top: 6px;
+}
+
+.video-info-title span {
+  font-size: 0.7em;
+  position: relative;
+  top: -20px;
+  color: grey;
+}
+
+.video-info-desc {
+  width: 800px;
+  margin-left: 66px;
+  margin-top: -15px;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
+.video-info-desc a {
+  text-decoration: none;
+  color: grey;
+  font-size: 0.85em;
+}
+
+/* Sidebar styles */
+.width-thirty {
+  width: 30%;
+}
+
+.up-next p {
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.up-next span {
+  font-size: 0.85em;
+  color: grey;
+}
+
+.up-next img {
+  position: relative;
+  top: 5px;
+}
+
+.line {
+  opacity: 0.2;
+  margin-top: -10px;
+}
+
+.suggested-videos ul {
+  margin-left: -40px;
+}
+
+.suggested-btn {
+  background-color: #eee;
+  padding: 10px 7px;
+  color: grey;
+  font-size: 0.75em;
+  font-weight: bold;
+  width: 100%;
 }
